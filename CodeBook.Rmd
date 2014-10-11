@@ -106,4 +106,7 @@ All the values are means, aggregated over 30 subjects and 6 activities.
 
 -Variables in ‘tidy_data.txt’ file:
 
-Subject The ID of the subject (1…30). Activity.ID ID of the activity performed (1…6) Activity.Label Name of the activity peformed. Variable variable corresponding to signals (look ‘tidy_mean_data.txt’ vairables description ) value value of the variable
+Subject The ID of the subject (1…30). 
+Activity.ID ID of the activity performed (1…6) 
+Activity.Label Name of the activity peformed. 
+Variable variable corresponding to signals (look ‘tidy_mean_data.txt’ variables description ) value value of the variable
