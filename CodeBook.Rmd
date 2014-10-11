@@ -1,58 +1,62 @@
 
 The dataset includes the following files:
 
-ëREADME.txtí
+‚ÄòREADME.txt‚Äô
 
-ëfeatures_info.txtí: Shows information about the variables used on the feature vector.
+‚Äòfeatures_info.txt‚Äô: Shows information about the variables used on the feature vector.
 
-ëfeatures.txtí: List of all features.
+‚Äòfeatures.txt‚Äô: List of all features.
 
-ëactivity_labels.txtí: Links the class labels with their activity name.
+‚Äòactivity_labels.txt‚Äô: Links the class labels with their activity name.
 
-ëtrain/X_train.txtí: Training set.
+‚Äòtrain/X_train.txt‚Äô: Training set.
 
-ëtrain/y_train.txtí: Training labels.
+‚Äòtrain/y_train.txt‚Äô: Training labels.
 
-ëtest/X_test.txtí: Test set.
+‚Äòtest/X_test.txt‚Äô: Test set.
 
-ëtest/y_test.txtí: Test labels.
+‚Äòtest/y_test.txt‚Äô: Test labels.
 
-ëtidy_data.txtí : tidy data set of Training and Test sets (includes only mean and std)
+‚Äòtidy_data.txt‚Äô : tidy data set of Training and Test sets (includes only mean and std)
 
-ëtidy_mean_data.txtí : tidy data set of mean with mean of each ëtidy_data.txtí numeric variable
+‚Äòtidy_mean_data.txt‚Äô : tidy data set of mean with mean of each ‚Äòtidy_data.txt‚Äô numeric variable
 
 The following files are available for the train and test data. Their descriptions are equivalent.
 
-ëtrain/subject_train.txtí: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+‚Äòtrain/subject_train.txt‚Äô: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-ëtrain/Inertial Signals/total_acc_x_train.txtí: The acceleration signal from the smartphone accelerometer X axis in standard gravity units ëgí. Every row shows a 128 element vector. The same description applies for the ëtotal_acc_x_train.txtí and ëtotal_acc_z_train.txtí files for the Y and Z axis.
+‚Äòtrain/Inertial Signals/total_acc_x_train.txt‚Äô: The acceleration signal from the smartphone accelerometer X axis in standard gravity units ‚Äòg‚Äô. Every row shows a 128 element vector. The same description applies for the ‚Äòtotal_acc_x_train.txt‚Äô and ‚Äòtotal_acc_z_train.txt‚Äô files for the Y and Z axis.
 
-ëtrain/Inertial Signals/body_acc_x_train.txtí: The body acceleration signal obtained by subtracting the gravity from the total acceleration.
+‚Äòtrain/Inertial Signals/body_acc_x_train.txt‚Äô: The body acceleration signal obtained by subtracting the gravity from the total acceleration.
 
-ëtrain/Inertial Signals/body_gyro_x_train.txtí: The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. Transformations and work performed to clean up the data 
+‚Äòtrain/Inertial Signals/body_gyro_x_train.txt‚Äô: The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. Transformations and work performed to clean up the data 
 
 ========================================= 
 
 Following changes have been made: 1.Data set has been cleaned to only take the mean and std values included in the data sets
 The activity label has been matched with the activity ID number included in the data sets
-A new data set was created with only the mean and std (ëtidy_data.txtí)
-A tidy data set was created that averaged each variable (ítidy_mean_data.txt)
+A new data set was created with only the mean and std (‚Äòtidy_data.txt‚Äô)
+A tidy data set was created that averaged each variable (‚Äôtidy_mean_data.txt)
 
 ========================================= 
 
--Variables in ëtidy_mean_data.txtí file:
+-Variables in ‚Äòtidy_mean_data.txt‚Äô file:
 
-Subject The ID of the subject (1Ö30). Activity.ID ID of the activity performed (1Ö6) Activity.Label Name of the activity peformed.
+Subject The ID of the subject (1‚Ä¶30). 
+Activity.ID ID of the activity performed (1‚Ä¶6) 
+Activity.Label Name of the activity peformed.
 
-Following variables are described below: tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z tBodyAcc-std()-X tBodyAcc-std()-Y tBodyAcc-std()-Z tGravityAcc-mean()-X tGravityAcc-mean()-Y tGravityAcc-mean()-Z tGravityAcc-std()-X tGravityAcc-std()-Y tGravityAcc-std()-Z tBodyAccJerk-mean()-X tBodyAccJerk-mean()-Y tBodyAccJerk-mean()-Z tBodyAccJerk-std()-X tBodyAccJerk-std()-Y tBodyAccJerk-std()-Z tBodyGyro-mean()-X tBodyGyro-mean()-Y tBodyGyro-mean()-Z tBodyGyro-std()-X tBodyGyro-std()-Y tBodyGyro-std()-Z tBodyGyroJerk-mean()-X tBodyGyroJerk-mean()-Y tBodyGyroJerk-mean()-Z tBodyGyroJerk-std()-X tBodyGyroJerk-std()-Y tBodyGyroJerk-std()-Z tBodyAccMag-mean() tBodyAccMag-std() tGravityAccMag-mean() tGravityAccMag-std() tBodyAccJerkMag-mean() tBodyAccJerkMag-std() tBodyGyroMag-mean() tBodyGyroMag-std() tBodyGyroJerkMag-mean() tBodyGyroJerkMag-std() fBodyAcc-mean()-X fBodyAcc-mean()-Y fBodyAcc-mean()-Z fBodyAcc-std()-X fBodyAcc-std()-Y fBodyAcc-std()-Z fBodyAcc-meanFreq()-X fBodyAcc-meanFreq()-Y fBodyAcc-meanFreq()-Z fBodyAccJerk-mean()-X fBodyAccJerk-mean()-Y fBodyAccJerk-mean()-Z fBodyAccJerk-std()-X fBodyAccJerk-std()-Y fBodyAccJerk-std()-Z fBodyAccJerk-meanFreq()-X fBodyAccJerk-meanFreq()-Y fBodyAccJerk-meanFreq()-Z fBodyGyro-mean()-X fBodyGyro-mean()-Y fBodyGyro-mean()-Z fBodyGyro-std()-X fBodyGyro-std()-Y fBodyGyro-std()-Z fBodyGyro-meanFreq()-X fBodyGyro-meanFreq()-Y fBodyGyro-meanFreq()-Z fBodyAccMag-mean() fBodyAccMag-std() fBodyAccMag-meanFreq() fBodyBodyAccJerkMag-mean() fBodyBodyAccJerkMag-std() fBodyBodyAccJerkMag-meanFreq() fBodyBodyGyroMag-mean() fBodyBodyGyroMag-std() fBodyBodyGyroMag-meanFreq() fBodyBodyGyroJerkMag-mean() fBodyBodyGyroJerkMag-std() fBodyBodyGyroJerkMag-meanFreq() ag-std()" ìfBodyBodyGyroJerkMag-meanFreq()î
+Following variables are described below: 
+tBodyAcc-mean()-X tBodyAcc-mean()-Y 
+tBodyAcc-mean()-Z tBodyAcc-std()-X tBodyAcc-std()-Y tBodyAcc-std()-Z tGravityAcc-mean()-X tGravityAcc-mean()-Y tGravityAcc-mean()-Z tGravityAcc-std()-X tGravityAcc-std()-Y tGravityAcc-std()-Z tBodyAccJerk-mean()-X tBodyAccJerk-mean()-Y tBodyAccJerk-mean()-Z tBodyAccJerk-std()-X tBodyAccJerk-std()-Y tBodyAccJerk-std()-Z tBodyGyro-mean()-X tBodyGyro-mean()-Y tBodyGyro-mean()-Z tBodyGyro-std()-X tBodyGyro-std()-Y tBodyGyro-std()-Z tBodyGyroJerk-mean()-X tBodyGyroJerk-mean()-Y tBodyGyroJerk-mean()-Z tBodyGyroJerk-std()-X tBodyGyroJerk-std()-Y tBodyGyroJerk-std()-Z tBodyAccMag-mean() tBodyAccMag-std() tGravityAccMag-mean() tGravityAccMag-std() tBodyAccJerkMag-mean() tBodyAccJerkMag-std() tBodyGyroMag-mean() tBodyGyroMag-std() tBodyGyroJerkMag-mean() tBodyGyroJerkMag-std() fBodyAcc-mean()-X fBodyAcc-mean()-Y fBodyAcc-mean()-Z fBodyAcc-std()-X fBodyAcc-std()-Y fBodyAcc-std()-Z fBodyAcc-meanFreq()-X fBodyAcc-meanFreq()-Y fBodyAcc-meanFreq()-Z fBodyAccJerk-mean()-X fBodyAccJerk-mean()-Y fBodyAccJerk-mean()-Z fBodyAccJerk-std()-X fBodyAccJerk-std()-Y fBodyAccJerk-std()-Z fBodyAccJerk-meanFreq()-X fBodyAccJerk-meanFreq()-Y fBodyAccJerk-meanFreq()-Z fBodyGyro-mean()-X fBodyGyro-mean()-Y fBodyGyro-mean()-Z fBodyGyro-std()-X fBodyGyro-std()-Y fBodyGyro-std()-Z fBodyGyro-meanFreq()-X fBodyGyro-meanFreq()-Y fBodyGyro-meanFreq()-Z fBodyAccMag-mean() fBodyAccMag-std() fBodyAccMag-meanFreq() fBodyBodyAccJerkMag-mean() fBodyBodyAccJerkMag-std() fBodyBodyAccJerkMag-meanFreq() fBodyBodyGyroMag-mean() fBodyBodyGyroMag-std() fBodyBodyGyroMag-meanFreq() fBodyBodyGyroJerkMag-mean() fBodyBodyGyroJerkMag-std() fBodyBodyGyroJerkMag-meanFreq() ag-std()" ‚ÄúfBodyBodyGyroJerkMag-meanFreq()‚Äù
 
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix ëtí to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix ‚Äòt‚Äô to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the ëfí to indicate frequency domain signals).
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the ‚Äòf‚Äô to indicate frequency domain signals).
 
-These signals were used to estimate variables of the feature vector for each pattern: ë-XYZí is used to denote 3-axial signals in the X, Y and Z directions.
+These signals were used to estimate variables of the feature vector for each pattern: ‚Äò-XYZ‚Äô is used to denote 3-axial signals in the X, Y and Z directions.
 
 tbodyacc-xyz
 
@@ -98,6 +102,8 @@ Transformation
 
 All the values are means, aggregated over 30 subjects and 6 activities.
 
-========================================= -Variables in ëtidy_data.txtí file:
+========================================= 
 
-Subject The ID of the subject (1Ö30). Activity.ID ID of the activity performed (1Ö6) Activity.Label Name of the activity peformed. Variable variable corresponding to signals (look ëtidy_mean_data.txtí vairables description ) value value of the variable
+-Variables in ‚Äòtidy_data.txt‚Äô file:
+
+Subject The ID of the subject (1‚Ä¶30). Activity.ID ID of the activity performed (1‚Ä¶6) Activity.Label Name of the activity peformed. Variable variable corresponding to signals (look ‚Äòtidy_mean_data.txt‚Äô vairables description ) value value of the variable
